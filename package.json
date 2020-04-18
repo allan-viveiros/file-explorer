@@ -2,13 +2,14 @@
   "name": "node-file-explorer",
   "version": "1.0.0",
   "description": "A file explorer app",
-  "main": "app.js",
+  "main": "index.js",
+  "homepage": "https://allan-viveiros.github.io/file-explorer",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "deploy": "gh-pages -d src"
   },
   "engines": {
     "node": "13.12.0",
